@@ -58,7 +58,7 @@ export default class MainSlider extends Slider{
         });
     }
 
-    
+
     plusSlides (n){                                 //переключение слайдов,  n - будем передавать 1 или -1(вперед или назад)
         this.showSlides(this.slideIndex += n);
     }
